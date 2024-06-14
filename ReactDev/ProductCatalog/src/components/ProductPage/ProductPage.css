@@ -1,0 +1,148 @@
+.ProductBox {
+    display: flex;
+    justify-content: center;
+}
+
+.ProductImgContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+
+.ProductImg {
+    display: inline-flex;
+    width: 400px;
+    height: 400px;
+    background-size: contain;
+}
+
+.ProductDetails {
+    display: inline-flex;
+    margin-left: 4%;
+    margin-top: 2.5%;
+    width: 25%;
+    overflow: hidden;
+    flex-direction: column
+}
+
+.pname {
+    font-size: 2rem;
+    margin-bottom: 1.7%;
+    word-wrap: break-word;
+}
+
+.multiCategory {
+    display: inline-flex;
+    margin-top: 1%;
+    /* line-height: 2.5; */
+    flex-wrap: wrap;
+}
+
+.categoryTags {
+    font-size: 0.8rem;
+    margin-bottom: 3%;
+    margin-right: 2.5%;
+    padding: 0.9vh 0.85vw;
+    background-color: rgb(192, 192, 192);
+    width: max-content;
+    font-weight: 600;
+    border-radius: 1vw;
+}
+
+.hrLine {
+    width: 100%;
+    margin-top: 3.5%;
+}
+
+.discounttag {
+    font-size: 2rem;
+    margin-top: 1.5%;
+    color: rgba(255, 0, 0, 0.715);
+}
+
+.priceTag {
+    font-size: 1.6rem;
+    color: black;
+}
+
+.productMRP {
+    color: gray;
+}
+
+.colorHeading {
+    font-size: 1.1rem;
+    margin-top: 3%;
+}
+
+.multiColor {
+    display: inline-flex;
+    margin-top: 2%;
+    /* line-height: 2.5; */
+    flex-wrap: wrap;
+}
+
+.colorsTags {
+    margin-bottom: 3%;
+    margin-right: 4%;
+    margin-left: 1.5%;
+    width: 9vh;
+    height: 6vh;
+    padding: 0vh 1.5vw;
+    background-color: rgb(192, 192, 192);
+    width: max-content;
+    border: 2px solid black;
+}
+
+
+.addToCartBtn {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1.7vh 4vw;
+    margin-top: 3%;
+    border: none;
+    background-color: rgb(255, 242, 0);   
+    border-radius: 1vw;
+    &:hover {
+        background-color: rgb(224, 224, 0);
+    }
+    cursor: pointer;
+}
+
+.buyNowBtn {
+    width: 100%;
+    padding: 1.7vh 4.55vw;
+    margin-top: 3%;
+    border: none;
+    background-color: orange;   
+    border-radius: 1vw;
+    &:hover {
+        background-color: rgb(225, 146, 0);
+    }
+}
+
+.dscriptionHeader {
+    font-size: 1.2rem;
+    margin-top: 10%;
+}
+
+.ProductDetailDiscription {
+    display: inline-flex;
+    margin-left: 3.5%;
+    margin-top: 2.5%;
+    width: 25%;
+    overflow: hidden;
+    flex-direction: column
+}
+
+.productDiscription {
+    margin-top: 3.5%;
+    word-wrap: break-word;
+    text-align: justify;
+}
+
+.productBand {
+    margin-top: 4%;
+}

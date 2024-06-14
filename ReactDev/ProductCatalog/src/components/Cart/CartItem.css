@@ -1,0 +1,49 @@
+.CartCard {
+    display: flex;
+    /* justify-content: space-between; */
+    margin: 1vw 10vw;
+    border: 1px solid black;
+    border-radius: 2vw;
+    padding: 1vw;
+    position: relative;
+}
+
+.CartCard:hover {
+    box-shadow: 0px 0px 4px 1px black;
+}
+
+.itemImg {
+    height: 30vh;
+    width: 30vh;
+}
+
+.CartItemInfo {
+    margin-left: 3vw;
+    text-decoration: none;
+    color: black;
+}
+
+.CartItemInfo div {
+    margin: 0.5vw;
+}
+
+#CartRem {
+    position: absolute;
+    /* top: 1vw; */
+    right: 1vw;
+    border: none;
+    background-image: url(../../../public/images/remove.png);
+    height: 32px;
+    width: 32px;
+    cursor: pointer;
+    background-color: transparent;
+}
+
+#prc {
+    text-decoration: line-through;
+    font-size: 19px;
+}
+
+.pricing {
+    font-size: 23px;
+}
